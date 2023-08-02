@@ -1,0 +1,75 @@
+
+/* Main container */
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20vh;
+    margin-left: 30vw;
+    height: 55vh;
+    width: 40vw;
+    border: 1px solid black;
+}
+
+/* Logo */
+.companyLogo{
+    background-color: #188b6b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+}
+
+.companyLogo img{
+    height: 100px;
+    width: 100px;
+}
+
+.formInput{
+    background-color: #B4F1B1;
+    height: 100%;
+    width: 60%;
+}
+/* Form Heading */
+.formInput h1{
+    margin-top: 5px;
+    margin-left: 30%;
+    color: black;
+}
+
+.formInput form{
+    margin-left: 10%;
+    margin-top: -5%;
+}
+
+form input{
+    width: 90%;
+    height: 35px;
+    margin: 10px 0px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+/* Styling for the button and submit button */
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.submitbutton{
+    width: 40%;
+    margin-left: 10%;
+}
+
+.submitbutton button{
+    width: 100%;
+    border-radius: 30px;
+    background-color: #B4F1B1;
+    margin-top: -3px;
+}
+
+.stuff{
+    margin-top: 20px;
+}
+

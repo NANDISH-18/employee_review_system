@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="/css/sign.css">
+<div class="mainContainer">
+    <div class="companyLogo">
+        <img src="../images/logo.png" alt="">
+    </div>
+
+    <div class="formInput">
+        <h1> Welcome </h1>
+        <form method="POST" action="/users/create-session">
+            <input type="email" name="email" placeholder="Enter email" required>
+            <input type="password" name="password" placeholder="Enter password" required>
+
+            <div class="buttons">
+                <div class="forgetPassword">
+                    <a href="/users/forgetPassword">forgetPassword</a>
+                </div>
+                <div class="submitbutton">
+                    <button type="submit">Sign In</button>
+                </div>
+            </div>
+
+            <div class="stuff">
+                <small>Don't have account</small>
+                <a href="/users/sign-up">Register User</a>
+            </div>
+        </form>
+    </div>
+</div>
+
